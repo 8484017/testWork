@@ -1,0 +1,5 @@
+<mat-list-item [ngClass]="[item.ready ? '':'offline']">
+  <mat-icon class="icon" [ngClass]="[item.ready ? 'icon-on': 'icon-off']">account_circle</mat-icon>
+  <p class="mat-caption"> {{item.identifier}}</p>
+  <mat-divider></mat-divider>
+</mat-list-item>

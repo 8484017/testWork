@@ -1,0 +1,19 @@
+.icon-on{
+    color: rgb(59, 207, 0);
+    fill: rgb(166, 252, 145);
+}
+.icon-off{
+    color: rgb(243, 39, 39);
+    fill: rgb(250, 207, 87);
+
+}
+.offline{
+    background-color: rgb(255, 245, 245);
+}
+
+.icon{
+    margin-right: 4px;
+}
+:host{
+    display: block;
+}
