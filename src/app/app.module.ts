@@ -16,7 +16,7 @@ import { ParticipantItemComponent } from './components/participant-list/particip
   declarations: [
     AppComponent,
     ParticipantListComponent,
-    ParticipantItemComponent
+    ParticipantItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +27,8 @@ import { ParticipantItemComponent } from './components/participant-list/particip
     MatBadgeModule,
     MatIconModule,
     BrowserAnimationsModule,
-    FlexLayoutModule.withConfig({ useColumnBasisZero: false }),
+
+    FlexLayoutModule,
     StoreModule.forRoot({ participants: participantReducer })
   ],
   providers: [
