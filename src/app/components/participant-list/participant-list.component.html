@@ -3,7 +3,7 @@
     <h3>Участники: </h3>
   </div>
   <mat-divider></mat-divider>
-  <div *ngFor="let participant of partSort; trackBy: participant?.id ">
+  <div *ngFor="let participant of partSort; trackBy: trackByPart">
     <app-participant-item [item]="participant"></app-participant-item>
   </div>
 </mat-list>

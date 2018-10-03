@@ -32,7 +32,6 @@ import { ParticipantItemComponent } from './components/participant-list/particip
   ],
   providers: [
     StompRService,
-
     ParticipantService
   ],
   bootstrap: [AppComponent]

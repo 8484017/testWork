@@ -26,9 +26,16 @@ import { trigger, transition, style, animate, query, stagger, keyframes } from '
 export class ParticipantListComponent implements OnInit {
 
   constructor() { }
-  @Input() participants: Participant[]
+
+  @Input() participants: Participant[] = []
+
+
   get partSort() {
     return this.participants.sort((a, b) => a.ready < b.ready ? 1 : -1)
+  }
+
+  trackByPart(item: Participant) {
+    return item.id
   }
 
   ngOnInit() {
