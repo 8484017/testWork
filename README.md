@@ -1,4 +1,4 @@
-<a href="http://useroker.ru">DEMO</a>
+<a target="_blank" href="http://useroker.ru">DEMO</a>
 
 
 # TestParticipant
